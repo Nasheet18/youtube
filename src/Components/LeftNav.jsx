@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 
 import LeftNavMenuItem from "./LeftNavMenuItem";
-import { categories } from "../Utils/constants";
+import { categories } from "../Utils/Constants";
 import { Context } from "../Context/ContextApi";
 
 const LeftNav = () => {
